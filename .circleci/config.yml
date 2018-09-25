@@ -75,4 +75,4 @@ jobs:
           destination: test-results
       - deploy:
           command: |
-            ./cc-test-reporter sum-coverage --output - --parts $CIRCLE_NODE_TOTAL coverage/codeclimate.*.json | ./cc-test-reporter upload-coverage --debug
+            ./cc-test-reporter sum-coverage --output - --parts $CIRCLE_NODE_TOTAL coverage/codeclimate.*.json | ./cc-test-reporter upload-coverage --debug --input -	
