@@ -10,7 +10,7 @@ jobs:
       - image: circleci/ruby:2.3-node-browsers
         environment:
           RAILS_ENV: test
-          CC_TEST_REPORTER_ID: c88a6f4af1fbf80e0fc9a5593ebff124b2f940645b1eacb5adb681522bbf650e
+          CC_TEST_REPORTER_ID: eaf5d3ff2b43eca2bc11baa3c15d15193639d5b68ed5476efccad04f4f9a077b
           COVERAGE: true
           # PATH: "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
